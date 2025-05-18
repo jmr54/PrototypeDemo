@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\DeadPool.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\DeadPool.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\DeadPoolEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.gitattributes" />
+    <None Include="..\..\.gitignore" />
+    <None Include="..\..\README.md" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\DeadPool">
+      <UniqueIdentifier>{5F5BABD9-E364-35F4-A4DE-4CC0089CD3F1}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\DeadPool\DeadPool.Build.cs">
+      <Filter>Source\DeadPool</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\DeadPool\DeadPool.cpp">
+      <Filter>Source\DeadPool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\DeadPool\DeadPool.h">
+      <Filter>Source\DeadPool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\DeadPool\MyClass.cpp">
+      <Filter>Source\DeadPool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\DeadPool\MyClass.h">
+      <Filter>Source\DeadPool</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

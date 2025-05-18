@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "DeadPool",
+			"Path": "..\\Source\\DeadPool.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "DeadPoolEditor",
+			"Path": "..\\Source\\DeadPoolEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
